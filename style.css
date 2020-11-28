@@ -31,3 +31,18 @@ h1{
 	margin-left: 25px;
 	border-radius: 10px;
 	}
+
+.btn {
+	width: 100px;
+	height: 30px;
+	background: #5f5;
+	outline: none;
+	margin-left: 99px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: #131517;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 30px;
+}
