@@ -19,7 +19,7 @@ h1{
 	border-top-left-radius: 30px;
 	text-align: center;
 }
-.text{
+input{
 	background: none;
 	width: 250px;
 	height: 35px;
