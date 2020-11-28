@@ -19,3 +19,15 @@ h1{
 	border-top-left-radius: 30px;
 	text-align: center;
 }
+.text{
+	background: none;
+	width: 250px;
+	height: 35px;
+	border-bottom: 2px solid lightgray;
+	color: #fff;
+	outline: none;
+	margin: 20px;
+	text-align: center;
+	margin-left: 25px;
+	border-radius: 10px;
+	}
