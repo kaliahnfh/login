@@ -7,5 +7,11 @@
 
 	<marquee> Selamat Datang!! Kamu berhasil masuk ke tempat ini </marquee>
 
+	<?php
+	    session_start();
+	    echo "pengguna : " . $_SESSION['email'];
+	    echo "<br><a href='logout.php'>logout</a>";
+	?>    
+
 </body>
 </html>
