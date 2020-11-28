@@ -1,3 +1,13 @@
+<?php
+		if(isset($_COOKIE['email']) and isset($_COOKIE['pass'])) {
+		$email = $_COOKIE['email'];
+		$pass  = $_COOKIE['pass'];
+		echo "<script>
+			document.getElementById('email').value ='$email';
+			document.getElementById('pass').value = '$pass';
+		</script>";
+		}
+?>
 <!DOCTYPE html>
 <html>
 <head>

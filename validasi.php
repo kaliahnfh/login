@@ -1,6 +1,6 @@
 <?php 
 
-    $myemail = "inihani01@yahoo.com";
+    $myemail = "inihani02@yahoo.com";
     $mypass  = "222345";
 
 	if(isset($_POST['login'])) {
@@ -17,7 +17,7 @@
 
 		} else {
 			echo "email or password is invailid.<br> click here to <a
-			   href='login.php'>try again</a>";
+			   href='index.php'>try again</a>";
 		}
 			} else{
 				header("location: login.php");
